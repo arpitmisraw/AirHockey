@@ -5,12 +5,15 @@ This is a two player game. There are two paddles and a puck. The left-paddle (Pl
 
 ## Screenshots
 
-![StartScreen](/img/Shot2.png)
-![Gameplay](/img/Shot1.png)
+>StartScreen
+![StartScreen](/img/Shot1.png)
+
+>Gameplay
+![Gameplay](/img/Shot2.png)
 
 ## Prerequisite
 
-Python2 is the default language needed for playing this game,to check which version of Python you have, type the following in terminal: 
+Python2 is the default language needed for playing this game,to check which version of Python you have, type the following in terminal:
 ```
 python --version
 ```
@@ -30,23 +33,26 @@ sudo -H pip install pygame
 
 For more info, visit [Pygame download page](http://www.pygame.org/download.shtml)
 
-## Clone and Run
+## Run
 
-1. Clone the repository.
 
-2. Create the branch on your local machine and switch in this branch :
+### Linux
+
+Run the AirHockey executable present in `linux-build/dist/AirHockey/AirHockey`
+or `python2 main.py` while you are in the AirHockey directory
+
+### Clone the repository.
+
+1. Create the branch on your local machine and switch in this branch :
 ```
 git branch [name_of_your_new_branch]
 git checkout [name_of_your_branch]
 ```
-3. Open the directory, open properties for "set_icon.desktop", toggle "Allow executing file as program" and launch it. This is only required for the first time launch.
+2. Open the directory, open properties for "set_icon.desktop", toggle "Allow executing file as program" and launch it. This is only required for the first time launch.
 
 NOTE: The administrative permission is required to place the AHlogo.png file into the usr/share/icons directory.
 
-4. Open properties for run.desktop, toggle "Allow executing file as program" and click Play. 
+4. Open properties for run.desktop, toggle "Allow executing file as program" and click Play.
 
 ## Enjoy The Game
-
-
-
 
